@@ -1,0 +1,7 @@
+To compile program  Life, you must type in dictionary 'Life' 'make partial' and then 'make life' or simple 'make'.
+To run program Life, you must type ./life [filename] [generationNumber] or this with optional [skippedGenerations]
+Where:
+filename - your file with initial generation. If it is in another dictionary than 'Life' you have to type full path to it.
+generationNumber - number of how many generations you want printed in *png.
+skippedGeneration - optional number that determines generations which you want printed. You can ommit similar generations.
+To clean printed generations type 'make clean' which removes all 'D*' files from dictionary 'pictures'.
